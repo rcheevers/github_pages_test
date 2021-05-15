@@ -7,10 +7,15 @@
 
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
-<p> 
-  <applet code="app.class" 
-   width="300" height="760"></applet> 
- </p> 
+<p>
+<object type="application/x-java-applet"
+    name="accessName" width="300" height="200">
+    <param name="code" value="app" />
+    <param name="archive" value="unnamed.jar" />
+    <param name="scriptable" value="true" />
+    <param name="mayscript" value="true" />
+</object>
+</p>
 
 </body>
 </html>
